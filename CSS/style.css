@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #dcf64b;
+    --second-color: #a0b435;
+    --black-color: #000000;
+    --black-color-medium: #0c0c0c;
+    --semi-black: #1e1e1e;
+    --white-color: #ffffff;
+
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
+	color: --black-color;
+	background-image: url(../../fundo-cafe.jpg);
+}
+
+/* HEADER*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 0rem;
+    z-index: 2022;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+}
+
+header .container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav .menu li {
+    margin-right: 4.8rem;
+}
+
+.menu-social{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 4rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 2.4rem;
+    gap: 3.4rem
+}
+
+.menu-item {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.btn-orcamento {
+    border-radius: 2.4rem;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    line-height: 2.4rem;
+    padding: 0.1rem 0.5rem;  
+    font-weight: bold;
+
+}
+
+.btn-orcamento.empty {
+    border: 2px solid --primary-color;
+    border-radius: 2.4rem;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0rem 1.8rem;
+}
+
+h2 {
+    font-size: 6.5rem;
+    font-weight: 800;
+    line-height: 7.7rem;
+    color: var(--white-color);
+}
+
+h2 span {
+    color: var(--primary-color);
+}
