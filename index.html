@@ -1,47 +1,183 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>My Portfolio | Renato Matsuo</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a target="_self" href="index.html">
-                <img src="Imagens/Logo-BeAcademy.png" width="220px" alt="Logotipo da BeAcademy"></a>
+<html lang="pt-bt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/pattern.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/responsive.css">
+        <title>My Portfolio | Renato Matsuo</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="Imagens/be-logo.svg" alt="Logo da Be Academy"></a>
+                </div>
+
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#about" class="menu-item">QUEM SOU</a></li>
+                        <li><a href="#cases" class="menu-item">CASES</a></li>
+                    </ul>
+                    <a href="#contact" class="btn-primary"><span>😃 PEÇA SEU ORÇAMENTO</span></a>
+                    <ul class="menu-social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/renato-matsuo-bezerra-tanaka-2744a2232/" target="_blank">
+                            <img src="Imagens/icone-linkedin.svg" alt="Ir para Página do Linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/renatoomatsuo" target="_blank">
+                            <img src="Imagens/icone-instagram.svg" alt="Ir para Página do Instagram"/></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+         </header>
+        <main>
+            <section class="s-hero">
+                <div class="container">
+                    <div class="title-box">
+                        <h1>Olá!👋🏻 Eu sou <br /><span>Renato Matsuo</span></h1>
+                        <h2>Especialista em Desenvolvimento Front-end</h2>
+                        <p>Tenho como principal objetivo me tornar desenvolvedor na PayLivre ao final do Programa DevStart</p>
+                    
+                        <div class="techs">
+                            <a href="">
+                                <img src="Imagens/html.svg" alt="Techs - HTML" /></a>
+                            <a href="">
+                                <img src="Imagens/css.svg" alt="Techs - CSS" /></a>
+                            <a href="">
+                                <img src="Imagens/javascript.svg" alt="Techs - Javascript"></a>
+                        </div>
+                        <a href="#cases" class="btn-primary empty">Veja meus cases</a>
+                    </div>
+                </div>
+            </section>
 
-            <nav>
-                <ul class="menu">
-                    <li><a href="#about" class="menu-item">QUEM SOU</a></li>
-                    <li><a href="#cases" class="menu-item">CASES</a></li>
-                </ul>
-                <a href="#contact" class="btn-orcamento"><span>PEÇA SEU ORÇAMENTO</span></a>
-                <ul class="menu-social">
-                    <li>
-                        <a href="https://www.linkedin.com/in/renato-matsuo-bezerra-tanaka-2744a2232/" target="_blank">
-                            <img src="Imagens/icone-linkedin.svg" alt="Visitar o linkedin do Renato Matsuo"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/renatoomatsuo" target="_blank">
-                            <img src="Imagens/icone-instagram.svg" alt="Visitar o instagram do Renato Matsuo"></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <main>
+            <section class="s-success">
+                <div class="container">
+                    <div class="title-success">
+                        <span class="tag">#veeemComOPai🔥</span>
+                        <h2><span>Sucesso</span><br />Tem <br />Nome</h2>
+                    </div>
+                    
+                    <div class="cards">
+                        <div class="card active">
+                            <div class="card-title">
+                                <h3>+30</h3>
+                            </div>
+                            <div class="card-info">
+                                <p>Clientes<br>
+                                <strong>Atendidos</strong></p>
+                            </div>
+                        </div>
+                    
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>+150</h3>
+                            </div>
+                            <div class="card-info">
+                                <p>Páginas<br>
+                                <strong>Desenvolvidas</strong></p>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>100%</h3>
+                            </div>
+                            <div class="card-info">
+                                <p>Entregas<br>
+                                <strong>no prazo</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    </main>
+            <section id="about" class="s-about">
+                <div class="container">
+                    <div class="about-me">
+                        <h2>QUEM SOU<span>.</span></h2>
+                        <p>
+                        Sou o Renato Matsuo, tenho 30 anos, sou de São Paulo, capital. Atualmente estou no segundo semestre do curso de Engenharia de Software, tenho conhecimento básico em alguns linguagens como por exemplo, Python, PHP, JavaScript, HTML e CSS. E estou participando do Programa DevStart, que é uma parceria entre a Be Academy e a Paylivre para formar os mais novos programadores Back-end da própria PayLivre.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href=""><img src="Imagens/icone-linkedin.svg" alt="Meu Linkedin"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/renatoomatsuo"><img src="Imagens/icone-instagram.svg" alt="Meu Instagram"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="Imagens/github.svg" alt="Meu GitHub"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="my-picture">
+                        <img src="Imagens/Perfil.jpg" alt="Foto de Rento Matsuo">
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-
-    </footer>
-</body>
+            <section id="cases" class="s-cases">
+                <div class="container">
+                    <div class="title-cases">
+                        <h2>CASES<span>.</span></h2>
+                    </div>
+                    <div class="cases">
+                        <div class="case">
+                            <img src="Imagens/case1.jpg" alt="Case 1" />
+                        </div>
+                        <div class="case">
+                            <img src="Imagens/case2.jpg" alt="Case 2" />
+                        </div>
+                        <div class="case">
+                            <img src="Imagens/case3.jpg" alt="Case 3" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+            <section id="contact" class="s-contact">
+                <div class="container">
+                    <div class="title-contact">
+                        <h2>ENTRE EM<br>
+                        CONTATO<span>.</span></h2>
+                        <span class="tag">#Chaaama🚀</span>
+                    </div>
+            
+                    <form class="form-contact" method="post" action="">
+                        <div class="input-group">
+                            <label for="">Nome</label>
+                            <input type="text" placeholder="Preencha com seu nome" required>
+                        </div>
+        
+                        <div class="input-group">
+                            <label for="">E-mail</label>
+                            <input type="email" placeholder="Preencha com seu e-mail" required>
+                        </div>
+                        <div class="input-group">
+                            <span>Mensagem</span>
+                            <textarea rows="6" placeholder="Deixe sua mensagem"></textarea>
+                        </div>
+                        <div class="input-button">
+                            <button class="btn-primary" type="submit">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="copy">
+                    <p>Feito com muita dedicação por mim</p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

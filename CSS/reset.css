@@ -1,24 +1,28 @@
 * {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-
-body {
-	background-image: url(../../fundo-cafe.jpg);
-}
-
-img {
-	max-width: 100%;
-	display: block;
-}
-
-button {
-	cursor: pointer;
-}
-
-a {
-	text-decoration: none;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
