@@ -66,6 +66,7 @@ header .container nav .menu-social {
 }
 
 .s-hero .container .title-box h1 {
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.527);
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 6.4rem;
@@ -74,12 +75,14 @@ header .container nav .menu-social {
   color: var(--white-color);
 }
 .s-hero .container .title-box h1 span {
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.527);
   font-size: 7.2;
   font-weight: 800;
   color: var(--primary-color);
 }
 
 .s-hero .container .title-box h2 {
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.527);
   font-weight: 300;
   font-size: 3rem;
   line-height: 6rem;
@@ -89,6 +92,7 @@ header .container nav .menu-social {
 }
 
 .s-hero .container .title-box p {
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.527);
   font-family: "Poppins";
   font-weight: 300;
   font-size: 2.6rem;
@@ -315,9 +319,11 @@ footer .container {
 }
 
 footer .container .copy {
+  text-align: center;
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.8rem;
   line-height: 2rem;
-  padding: 3rem 0;
+  padding: 1.8rem 0 0.5rem 0;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 }
